@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/sentry.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/sentry", "dest": "/api/sentry.js" }
+  ]
+}
